@@ -17,6 +17,13 @@
 // Promnet = "coding not easy"
 // console.log(Promnet)
 
+// let x = 6;
+// let y = 3;
+// console.log(x<10 && y>1)
+// console.log(x<10 && y < 1)
+// console.log(x==5||y==5)
+// console.log(x==6||y==5)
+// console.log(!(x==y))
 
 
 // let p = document.querySelector("p")
