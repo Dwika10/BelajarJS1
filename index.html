@@ -3,14 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dwika Jaya F</title>
+    <style>
+        li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        button {
+            margin-left: 5px;
+        }
+    </style>
 </head>
 <body>
     <form onsubmit="return false">
+        <h1>To-do List</h1>
         <input type="text" id ="input_form" value="">
-        <button id="tombol_form">Tekan</button>
+        <button id="tombol_form">Submit</button>
     </form>
-    <p>Hasil Teks <span id="hasil"></span></p>
+    <ul style="text-decoration: none;" id="list-container"></ul>
     <script src="main.js"></script>
 
 </body>
